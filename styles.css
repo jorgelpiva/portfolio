@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.menu {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header {
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color:#aeaeae;
+    
+}
+
+.listmenu {
+    display: flex;
+    text-decoration: none;
+    border-color: #aeaeae
+}
+
+.listmenu li {
+    list-style: none;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #aeaeae;
+} 
+
+
+body {
+    background: url("./Img/background.jpg") no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 80vh;
+    color: #aeaeae;
+    font-weight: normal;
+
+}
+
+li {
+    list-style: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes li{
+    margin-right: 1rem;
+    
+}
+
+.box {
+    margin: 6rem;
+    background: #eee;
+    padding: 2rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0.16);
+    border-radius: 4rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box p{
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.profile {
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+}
+
+.boxcard img {
+    max-width: 45rem;
+    border-radius: 2.5%;
+    margin-bottom: 2rem;
+}
+
+.boxcard h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #606060;
+    font-weight: normal;
+}
+
+.boxcard {
+    margin: 1rem;
+    background: #eee;
+    padding: 2rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0.16);
+    border-radius: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.boxcard p{
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.sobre .sobre-itens {
+    display: flex;
+    grid-template-columns: auto 1fr;
+    text-align: justify;
+    align-items: center;
+    gap: 1rem;
+}
+
+.excel .excel-itens {
+    display: flex;
+    grid-template-columns: auto 1fr;
+    text-align: justify;
+    align-items: center;
+    gap: 1rem;
+}
+
+.powerbi .powerbi-itens {
+    display: flex;
+    grid-template-columns: auto 1fr;
+    text-align: justify;
+    align-items: center;
+    gap: 1rem;
+}
+
+.negocios .negocios-itens {
+    display: flex;
+    grid-template-columns: auto 1fr;
+    text-align: justify;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form {
+    width: 50%;
+    display: inline-grid;
+}
+
+.form-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-form label{
+    text-align: left;
+    margin: 20px 0 5px 0;
+}
+
+.form-form button{
+    text-align: center;
+    margin: 20px 0 5px 0;
+    width: 100px;
+    padding: 10px 0;
+}
+
+.form-form textarea{
+    resize: vertical;
+    min-height: 140px;
+}
+
+footer {
+    text-align: center;
+}
